@@ -3,6 +3,6 @@ class Post
   @@all = []
   
   def self.all 
-    @all 
+    @@all 
   end 
 end 
